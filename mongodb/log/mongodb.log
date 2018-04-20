@@ -1,0 +1,1091 @@
+2017-10-25T17:21:46.061+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T17:21:46.603+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-25T17:21:46.604+0800 I CONTROL  [initandlisten] MongoDB starting : pid=12564 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] modules: none
+2017-10-25T17:21:46.605+0800 I CONTROL  [initandlisten] build environment:
+2017-10-25T17:21:46.606+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-25T17:21:46.606+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-25T17:21:46.606+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-25T17:21:46.606+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-25T17:21:46.610+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-25T17:21:48.299+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-25T17:21:48.299+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-25T17:21:48.300+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-25T17:21:48.746+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-25T17:22:09.831+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63094 #1 (1 connection now open)
+2017-10-25T17:22:09.833+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63097 #2 (2 connections now open)
+2017-10-25T17:22:09.834+0800 I NETWORK  [conn1] end connection 127.0.0.1:63094 (1 connection now open)
+2017-10-25T17:22:09.889+0800 I NETWORK  [conn2] end connection 127.0.0.1:63097 (0 connections now open)
+2017-10-25T17:22:10.082+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63098 #3 (1 connection now open)
+2017-10-25T17:22:10.083+0800 I NETWORK  [conn3] end connection 127.0.0.1:63098 (0 connections now open)
+2017-10-25T17:24:10.312+0800 I NETWORK  [websvr] Socket recv() errno:10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:63259
+2017-10-25T17:28:07.370+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T17:28:07.950+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-25T17:28:07.950+0800 I CONTROL  [main] Trying to install Windows service 'Mongodb'
+2017-10-25T17:28:07.977+0800 I CONTROL  [main] Service 'Mongodb' (MongoDB) installed with command line 'E:\mongodb\bin\mongod.exe --config F:/blog/mongodb/etc/mongo.conf --service'
+2017-10-25T17:28:07.977+0800 I CONTROL  [main] Service can be started from the command line with 'net start Mongodb'
+2017-10-25T17:28:44.614+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T17:28:45.174+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-25T17:28:45.175+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-25T17:28:45.177+0800 I STORAGE  [thread1] Service running
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11960 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-25T17:28:45.178+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten] modules: none
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten] build environment:
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-25T17:28:45.179+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-25T17:28:45.182+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-25T17:28:45.183+0800 W -        [initandlisten] Detected unclean shutdown - F:\blog\mongodb\data\mongod.lock is not empty.
+2017-10-25T17:28:45.184+0800 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2017-10-25T17:28:45.184+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-25T17:28:47.530+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-25T17:28:47.530+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-25T17:28:47.531+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-25T17:28:47.539+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-25T17:28:48.043+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2017-10-25T17:29:29.787+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63853 #1 (1 connection now open)
+2017-10-25T17:29:48.802+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63900 #5 (2 connections now open)
+2017-10-25T17:29:48.803+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63901 #6 (3 connections now open)
+2017-10-25T17:29:48.804+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63902 #7 (4 connections now open)
+2017-10-25T17:29:48.806+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63903 #8 (5 connections now open)
+2017-10-25T17:29:48.807+0800 I NETWORK  [conn5] end connection 127.0.0.1:63900 (4 connections now open)
+2017-10-25T17:29:48.843+0800 I NETWORK  [conn6] end connection 127.0.0.1:63901 (3 connections now open)
+2017-10-25T17:29:48.845+0800 I NETWORK  [conn7] end connection 127.0.0.1:63902 (2 connections now open)
+2017-10-25T17:29:48.849+0800 I NETWORK  [conn8] end connection 127.0.0.1:63903 (1 connection now open)
+2017-10-25T17:29:49.053+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63904 #9 (2 connections now open)
+2017-10-25T17:29:49.054+0800 I NETWORK  [conn9] end connection 127.0.0.1:63904 (1 connection now open)
+2017-10-25T17:29:52.830+0800 I NETWORK  [websvr] Socket recv() errno:10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:63884
+2017-10-25T17:29:56.435+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-25T17:29:56.444+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-25T17:29:56.450+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-25T17:29:56.450+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-25T17:29:56.450+0800 I NETWORK  [serviceStopWorker] closing listening socket: 472
+2017-10-25T17:29:56.450+0800 I NETWORK  [serviceStopWorker] closing listening socket: 480
+2017-10-25T17:29:56.450+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-25T17:29:56.450+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-25T17:29:56.451+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-25T17:29:56.451+0800 I NETWORK  [conn1] end connection 127.0.0.1:63853 (0 connections now open)
+2017-10-25T17:29:57.174+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-25T17:29:57.176+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-25T17:33:39.128+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T17:33:39.695+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-25T17:33:39.697+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-25T17:33:39.698+0800 I STORAGE  [thread1] Service running
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10076 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] modules: none
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] build environment:
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-25T17:33:39.699+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-25T17:33:39.703+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-25T17:33:39.704+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-25T17:33:41.675+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-25T17:33:41.675+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-25T17:33:41.676+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-25T17:33:41.684+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-25T17:33:49.707+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64325 #1 (1 connection now open)
+2017-10-25T17:34:42.366+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64427 #2 (2 connections now open)
+2017-10-25T17:34:42.517+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64428 #3 (3 connections now open)
+2017-10-25T17:34:44.992+0800 I NETWORK  [conn2] end connection 127.0.0.1:64427 (2 connections now open)
+2017-10-25T17:34:44.993+0800 I NETWORK  [conn3] end connection 127.0.0.1:64428 (2 connections now open)
+2017-10-25T17:34:48.592+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64444 #4 (2 connections now open)
+2017-10-25T17:34:48.709+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64445 #5 (3 connections now open)
+2017-10-25T17:36:56.195+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-25T17:36:56.198+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-25T17:36:56.206+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-25T17:36:56.206+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-25T17:36:56.206+0800 I NETWORK  [serviceStopWorker] closing listening socket: 468
+2017-10-25T17:36:56.206+0800 I NETWORK  [serviceStopWorker] closing listening socket: 476
+2017-10-25T17:36:56.207+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-25T17:36:56.207+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-25T17:36:56.216+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-25T17:36:56.217+0800 I NETWORK  [conn5] end connection 127.0.0.1:64445 (2 connections now open)
+2017-10-25T17:36:56.235+0800 I NETWORK  [conn4] end connection 127.0.0.1:64444 (1 connection now open)
+2017-10-25T17:36:56.236+0800 I NETWORK  [conn1] end connection 127.0.0.1:64325 (0 connections now open)
+2017-10-25T17:36:56.861+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-25T17:36:56.862+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-25T20:05:45.371+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T20:05:46.531+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-25T20:05:46.810+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-25T20:05:46.811+0800 I STORAGE  [thread1] Service running
+2017-10-25T20:05:46.834+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2112 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-25T20:05:46.834+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-25T20:05:46.834+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-25T20:05:46.834+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-25T20:05:46.834+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten] modules: none
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten] build environment:
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-25T20:05:46.836+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-25T20:05:46.881+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-25T20:05:46.881+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-25T20:05:53.100+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-25T20:05:53.122+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-25T20:05:53.122+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-25T20:05:53.306+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-25T21:47:59.347+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-25T21:47:59.350+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-25T21:47:59.401+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-25T21:47:59.401+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-25T21:47:59.402+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-25T21:47:59.402+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-25T21:47:59.402+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-25T21:47:59.402+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-25T21:47:59.402+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-25T21:48:00.039+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-25T21:48:00.040+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-26T08:20:22.524+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-26T08:20:23.664+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-26T08:20:23.966+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-26T08:20:23.967+0800 I STORAGE  [thread1] Service running
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2096 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] modules: none
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] build environment:
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-26T08:20:23.979+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-26T08:20:24.025+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-26T08:20:24.026+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-26T08:20:34.406+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-26T08:20:34.428+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-26T08:20:34.428+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-26T08:20:34.857+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-26T09:18:10.242+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50503 #1 (1 connection now open)
+2017-10-26T09:18:10.391+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50504 #2 (2 connections now open)
+2017-10-26T09:19:20.726+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50530 #3 (3 connections now open)
+2017-10-26T09:19:20.828+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50531 #4 (4 connections now open)
+2017-10-26T09:35:39.482+0800 I NETWORK  [conn3] end connection 127.0.0.1:50530 (3 connections now open)
+2017-10-26T09:35:39.482+0800 I NETWORK  [conn4] end connection 127.0.0.1:50531 (3 connections now open)
+2017-10-26T09:35:48.535+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50866 #5 (3 connections now open)
+2017-10-26T09:35:48.640+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50867 #6 (4 connections now open)
+2017-10-26T09:37:26.081+0800 I NETWORK  [conn5] end connection 127.0.0.1:50866 (3 connections now open)
+2017-10-26T09:37:26.087+0800 I NETWORK  [conn6] end connection 127.0.0.1:50867 (2 connections now open)
+2017-10-26T09:38:01.851+0800 W COMMAND  [conn1] the autoIndexId option is deprecated and will be removed in a future release
+2017-10-26T09:38:02.310+0800 I COMMAND  [conn1] command local.goods command: create { create: "goods", autoIndexId: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:109 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 458ms
+2017-10-26T09:38:05.143+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50903 #7 (3 connections now open)
+2017-10-26T09:38:05.245+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50904 #8 (4 connections now open)
+2017-10-26T09:48:31.176+0800 I NETWORK  [conn7] end connection 127.0.0.1:50903 (3 connections now open)
+2017-10-26T09:48:31.177+0800 I NETWORK  [conn8] end connection 127.0.0.1:50904 (2 connections now open)
+2017-10-26T09:57:56.347+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51307 #9 (3 connections now open)
+2017-10-26T10:03:53.754+0800 I NETWORK  [conn9] end connection 127.0.0.1:51307 (2 connections now open)
+2017-10-26T10:08:58.458+0800 I NETWORK  [conn2] end connection 127.0.0.1:50504 (1 connection now open)
+2017-10-26T10:08:58.458+0800 I NETWORK  [conn1] end connection 127.0.0.1:50503 (1 connection now open)
+2017-10-26T10:09:21.675+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51604 #10 (1 connection now open)
+2017-10-26T10:09:42.678+0800 I NETWORK  [conn10] end connection 127.0.0.1:51604 (0 connections now open)
+2017-10-26T10:13:19.960+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51673 #11 (1 connection now open)
+2017-10-26T10:13:20.077+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51674 #12 (2 connections now open)
+2017-10-26T10:13:26.656+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51689 #13 (3 connections now open)
+2017-10-26T10:13:26.800+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51690 #14 (4 connections now open)
+2017-10-26T10:15:36.201+0800 W COMMAND  [conn11] the autoIndexId option is deprecated and will be removed in a future release
+2017-10-26T10:15:36.609+0800 I COMMAND  [conn11] command local.users command: create { create: "users", autoIndexId: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:109 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 408ms
+2017-10-26T10:16:43.454+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51742 #15 (5 connections now open)
+2017-10-26T10:16:43.568+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51743 #16 (6 connections now open)
+2017-10-26T10:16:46.606+0800 I NETWORK  [conn15] end connection 127.0.0.1:51742 (5 connections now open)
+2017-10-26T10:16:46.612+0800 I NETWORK  [conn16] end connection 127.0.0.1:51743 (4 connections now open)
+2017-10-26T10:16:47.614+0800 I NETWORK  [conn13] end connection 127.0.0.1:51689 (3 connections now open)
+2017-10-26T10:16:47.615+0800 I NETWORK  [conn14] end connection 127.0.0.1:51690 (2 connections now open)
+2017-10-26T10:27:24.395+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51987 #17 (3 connections now open)
+2017-10-26T10:27:24.501+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51988 #18 (4 connections now open)
+2017-10-26T12:15:22.715+0800 I NETWORK  [conn17] end connection 127.0.0.1:51987 (3 connections now open)
+2017-10-26T12:15:22.723+0800 I NETWORK  [conn18] end connection 127.0.0.1:51988 (2 connections now open)
+2017-10-26T13:02:48.437+0800 I NETWORK  [conn11] end connection 127.0.0.1:51673 (1 connection now open)
+2017-10-26T13:02:48.440+0800 I NETWORK  [conn12] end connection 127.0.0.1:51674 (0 connections now open)
+2017-10-26T13:02:52.643+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59301 #19 (1 connection now open)
+2017-10-26T13:02:52.747+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59302 #20 (2 connections now open)
+2017-10-26T13:12:10.470+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60173 #21 (3 connections now open)
+2017-10-26T13:12:15.733+0800 I NETWORK  [conn21] end connection 127.0.0.1:60173 (2 connections now open)
+2017-10-26T13:12:26.618+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60197 #22 (3 connections now open)
+2017-10-26T13:23:37.682+0800 I NETWORK  [conn22] end connection 127.0.0.1:60197 (2 connections now open)
+2017-10-26T13:23:45.400+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61271 #23 (3 connections now open)
+2017-10-26T13:25:50.268+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61458 #24 (4 connections now open)
+2017-10-26T13:25:50.409+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61459 #25 (5 connections now open)
+2017-10-26T13:26:44.013+0800 I NETWORK  [conn23] end connection 127.0.0.1:61271 (4 connections now open)
+2017-10-26T13:26:49.059+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61565 #26 (5 connections now open)
+2017-10-26T13:29:29.898+0800 I NETWORK  [conn26] end connection 127.0.0.1:61565 (4 connections now open)
+2017-10-26T13:29:34.363+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61855 #27 (5 connections now open)
+2017-10-26T13:32:53.895+0800 I NETWORK  [conn27] end connection 127.0.0.1:61855 (4 connections now open)
+2017-10-26T13:32:58.668+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62189 #28 (5 connections now open)
+2017-10-26T13:37:26.314+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62303 #29 (6 connections now open)
+2017-10-26T13:37:26.456+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62304 #30 (7 connections now open)
+2017-10-26T13:38:50.688+0800 I NETWORK  [conn28] end connection 127.0.0.1:62189 (6 connections now open)
+2017-10-26T13:38:55.260+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62329 #31 (7 connections now open)
+2017-10-26T13:54:35.600+0800 I NETWORK  [conn31] end connection 127.0.0.1:62329 (6 connections now open)
+2017-10-26T13:55:13.805+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62644 #32 (7 connections now open)
+2017-10-26T13:55:40.580+0800 I NETWORK  [conn32] end connection 127.0.0.1:62644 (6 connections now open)
+2017-10-26T13:55:45.130+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62659 #33 (7 connections now open)
+2017-10-26T13:55:47.818+0800 I NETWORK  [conn33] end connection 127.0.0.1:62659 (6 connections now open)
+2017-10-26T14:08:49.481+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63230 #34 (7 connections now open)
+2017-10-26T14:08:49.600+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63232 #35 (8 connections now open)
+2017-10-26T14:09:04.355+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63236 #36 (9 connections now open)
+2017-10-26T14:09:04.481+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63237 #37 (10 connections now open)
+2017-10-26T14:29:17.272+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64139 #38 (11 connections now open)
+2017-10-26T14:31:18.523+0800 I NETWORK  [conn38] end connection 127.0.0.1:64139 (10 connections now open)
+2017-10-26T14:31:22.779+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64183 #39 (11 connections now open)
+2017-10-26T14:32:46.367+0800 I NETWORK  [conn39] end connection 127.0.0.1:64183 (10 connections now open)
+2017-10-26T14:36:34.129+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64805 #40 (11 connections now open)
+2017-10-26T14:38:33.872+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65060 #41 (12 connections now open)
+2017-10-26T14:38:34.007+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65061 #42 (13 connections now open)
+2017-10-26T14:39:23.865+0800 I NETWORK  [conn40] end connection 127.0.0.1:64805 (12 connections now open)
+2017-10-26T14:39:28.354+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65149 #43 (13 connections now open)
+2017-10-26T14:40:54.813+0800 I NETWORK  [conn43] end connection 127.0.0.1:65149 (12 connections now open)
+2017-10-26T14:40:59.553+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65293 #44 (13 connections now open)
+2017-10-26T14:46:15.630+0800 I NETWORK  [conn44] end connection 127.0.0.1:65293 (12 connections now open)
+2017-10-26T14:55:56.128+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50532 #45 (13 connections now open)
+2017-10-26T14:56:59.518+0800 I COMMAND  [conn19] command local.goods command: renameCollection { renameCollection: "local.goods", to: "local.imoocgoods" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } } } protocol:op_command 168ms
+2017-10-26T14:57:15.192+0800 I COMMAND  [conn19] command local.users command: renameCollection { renameCollection: "local.users", to: "local.imoocusers" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } } } protocol:op_command 107ms
+2017-10-26T14:57:26.069+0800 I NETWORK  [conn45] end connection 127.0.0.1:50532 (12 connections now open)
+2017-10-26T14:57:30.010+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50707 #46 (13 connections now open)
+2017-10-26T14:57:46.840+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50737 #47 (14 connections now open)
+2017-10-26T14:57:46.960+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50738 #48 (15 connections now open)
+2017-10-26T15:02:41.670+0800 I NETWORK  [conn46] end connection 127.0.0.1:50707 (14 connections now open)
+2017-10-26T15:04:57.713+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51516 #49 (15 connections now open)
+2017-10-26T15:04:57.855+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51517 #50 (16 connections now open)
+2017-10-26T15:05:05.650+0800 I NETWORK  [conn49] end connection 127.0.0.1:51516 (15 connections now open)
+2017-10-26T15:05:05.655+0800 I NETWORK  [conn50] end connection 127.0.0.1:51517 (14 connections now open)
+2017-10-26T15:05:44.263+0800 I COMMAND  [conn19] insert imooc.temp ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { w: 1 } } } 510ms
+2017-10-26T15:05:44.264+0800 I COMMAND  [conn19] CMD: drop imooc.temp
+2017-10-26T15:06:09.005+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51709 #51 (15 connections now open)
+2017-10-26T15:06:09.113+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51710 #52 (16 connections now open)
+2017-10-26T15:06:43.037+0800 W COMMAND  [conn19] the autoIndexId option is deprecated and will be removed in a future release
+2017-10-26T15:06:43.466+0800 I COMMAND  [conn19] command imooc.dbgoods command: create { create: "dbgoods", autoIndexId: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:109 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 428ms
+2017-10-26T15:06:45.941+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51785 #53 (17 connections now open)
+2017-10-26T15:06:46.052+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51786 #54 (18 connections now open)
+2017-10-26T15:08:49.643+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52003 #55 (19 connections now open)
+2017-10-26T15:08:49.806+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52006 #56 (20 connections now open)
+2017-10-26T15:09:07.236+0800 W COMMAND  [conn19] the autoIndexId option is deprecated and will be removed in a future release
+2017-10-26T15:09:07.760+0800 I COMMAND  [conn19] command imooc.dbuser command: create { create: "dbuser", autoIndexId: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:109 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 523ms
+2017-10-26T15:09:30.817+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52084 #57 (21 connections now open)
+2017-10-26T15:09:30.950+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52085 #58 (22 connections now open)
+2017-10-26T15:10:14.485+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52166 #59 (23 connections now open)
+2017-10-26T15:11:45.312+0800 I COMMAND  [conn19] command imooc.dbgoods command: renameCollection { renameCollection: "imooc.dbgoods", to: "imooc.goods" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } } } protocol:op_command 108ms
+2017-10-26T15:11:57.250+0800 I COMMAND  [conn19] command imooc.dbuser command: renameCollection { renameCollection: "imooc.dbuser", to: "imooc.user" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } } } protocol:op_command 139ms
+2017-10-26T15:12:44.679+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52422 #60 (24 connections now open)
+2017-10-26T15:12:44.811+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52423 #61 (25 connections now open)
+2017-10-26T15:12:57.160+0800 I NETWORK  [conn60] end connection 127.0.0.1:52422 (24 connections now open)
+2017-10-26T15:12:57.166+0800 I NETWORK  [conn61] end connection 127.0.0.1:52423 (23 connections now open)
+2017-10-26T15:12:57.789+0800 I NETWORK  [conn58] end connection 127.0.0.1:52085 (22 connections now open)
+2017-10-26T15:12:57.795+0800 I NETWORK  [conn57] end connection 127.0.0.1:52084 (21 connections now open)
+2017-10-26T15:12:58.684+0800 I NETWORK  [conn55] end connection 127.0.0.1:52003 (20 connections now open)
+2017-10-26T15:12:58.694+0800 I NETWORK  [conn56] end connection 127.0.0.1:52006 (19 connections now open)
+2017-10-26T15:12:59.698+0800 I NETWORK  [conn53] end connection 127.0.0.1:51785 (18 connections now open)
+2017-10-26T15:12:59.699+0800 I NETWORK  [conn54] end connection 127.0.0.1:51786 (17 connections now open)
+2017-10-26T15:13:00.388+0800 I NETWORK  [conn51] end connection 127.0.0.1:51709 (16 connections now open)
+2017-10-26T15:13:00.395+0800 I NETWORK  [conn52] end connection 127.0.0.1:51710 (15 connections now open)
+2017-10-26T15:13:01.046+0800 I NETWORK  [conn47] end connection 127.0.0.1:50737 (14 connections now open)
+2017-10-26T15:13:01.047+0800 I NETWORK  [conn48] end connection 127.0.0.1:50738 (13 connections now open)
+2017-10-26T15:13:01.256+0800 I NETWORK  [conn41] end connection 127.0.0.1:65060 (12 connections now open)
+2017-10-26T15:13:01.256+0800 I NETWORK  [conn42] end connection 127.0.0.1:65061 (12 connections now open)
+2017-10-26T15:13:01.528+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52456 #62 (12 connections now open)
+2017-10-26T15:13:01.664+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52457 #63 (13 connections now open)
+2017-10-26T15:13:02.559+0800 I NETWORK  [conn62] end connection 127.0.0.1:52456 (12 connections now open)
+2017-10-26T15:13:02.560+0800 I NETWORK  [conn63] end connection 127.0.0.1:52457 (11 connections now open)
+2017-10-26T15:13:03.637+0800 I NETWORK  [conn36] end connection 127.0.0.1:63236 (10 connections now open)
+2017-10-26T15:13:03.643+0800 I NETWORK  [conn37] end connection 127.0.0.1:63237 (9 connections now open)
+2017-10-26T15:13:05.305+0800 I NETWORK  [conn34] end connection 127.0.0.1:63230 (8 connections now open)
+2017-10-26T15:13:05.307+0800 I NETWORK  [conn35] end connection 127.0.0.1:63232 (7 connections now open)
+2017-10-26T15:13:06.402+0800 I NETWORK  [conn29] end connection 127.0.0.1:62303 (6 connections now open)
+2017-10-26T15:13:06.403+0800 I NETWORK  [conn30] end connection 127.0.0.1:62304 (5 connections now open)
+2017-10-26T15:13:08.068+0800 I NETWORK  [conn24] end connection 127.0.0.1:61458 (4 connections now open)
+2017-10-26T15:13:08.069+0800 I NETWORK  [conn25] end connection 127.0.0.1:61459 (3 connections now open)
+2017-10-26T15:13:12.872+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52478 #64 (4 connections now open)
+2017-10-26T15:13:13.026+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52479 #65 (5 connections now open)
+2017-10-26T15:13:48.473+0800 I NETWORK  [conn59] end connection 127.0.0.1:52166 (4 connections now open)
+2017-10-26T15:13:53.413+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52592 #66 (5 connections now open)
+2017-10-26T15:56:46.001+0800 I NETWORK  [conn66] end connection 127.0.0.1:52592 (4 connections now open)
+2017-10-26T16:24:48.443+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58700 #67 (5 connections now open)
+2017-10-26T16:29:42.371+0800 I NETWORK  [conn67] end connection 127.0.0.1:58700 (4 connections now open)
+2017-10-26T16:29:48.039+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59273 #68 (5 connections now open)
+2017-10-26T17:05:05.601+0800 I NETWORK  [conn68] end connection 127.0.0.1:59273 (4 connections now open)
+2017-10-26T17:05:10.569+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60212 #69 (5 connections now open)
+2017-10-26T17:08:55.130+0800 I NETWORK  [conn69] end connection 127.0.0.1:60212 (4 connections now open)
+2017-10-26T17:08:59.523+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60525 #70 (5 connections now open)
+2017-10-26T17:15:44.365+0800 I NETWORK  [conn70] end connection 127.0.0.1:60525 (4 connections now open)
+2017-10-26T17:15:49.009+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61122 #71 (5 connections now open)
+2017-10-26T17:34:20.939+0800 I NETWORK  [conn71] end connection 127.0.0.1:61122 (4 connections now open)
+2017-10-26T17:53:29.962+0800 I NETWORK  [conn64] end connection 127.0.0.1:52478 (3 connections now open)
+2017-10-26T17:53:29.978+0800 I NETWORK  [conn65] end connection 127.0.0.1:52479 (2 connections now open)
+2017-10-26T17:53:30.334+0800 I NETWORK  [conn19] end connection 127.0.0.1:59301 (1 connection now open)
+2017-10-26T17:53:30.334+0800 I NETWORK  [conn20] end connection 127.0.0.1:59302 (0 connections now open)
+2017-10-26T17:53:52.206+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-26T17:53:52.214+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-26T17:53:52.216+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-26T17:53:52.216+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-26T17:53:52.216+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-26T17:53:52.217+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-26T17:53:52.217+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-26T17:53:52.217+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-26T17:53:52.217+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-26T17:53:53.114+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-26T17:53:53.115+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-26T18:45:31.056+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-26T18:45:32.456+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-26T18:45:32.704+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-26T18:45:32.705+0800 I STORAGE  [thread1] Service running
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2140 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] modules: none
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] build environment:
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-26T18:45:32.728+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-26T18:45:32.809+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-26T18:45:32.918+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-26T18:45:42.577+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-26T18:45:42.654+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-26T18:45:42.654+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-26T18:45:42.884+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-26T19:07:03.041+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49633 #1 (1 connection now open)
+2017-10-26T20:56:14.486+0800 I NETWORK  [conn1] end connection 127.0.0.1:49633 (0 connections now open)
+2017-10-26T20:56:23.795+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59832 #2 (1 connection now open)
+2017-10-26T21:01:25.597+0800 I NETWORK  [conn2] end connection 127.0.0.1:59832 (0 connections now open)
+2017-10-26T21:01:32.155+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60331 #3 (1 connection now open)
+2017-10-26T21:02:29.457+0800 I NETWORK  [conn3] end connection 127.0.0.1:60331 (0 connections now open)
+2017-10-26T21:02:36.181+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60437 #4 (1 connection now open)
+2017-10-26T21:05:39.920+0800 I NETWORK  [conn4] end connection 127.0.0.1:60437 (0 connections now open)
+2017-10-26T21:05:46.469+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60754 #5 (1 connection now open)
+2017-10-26T21:08:43.412+0800 I NETWORK  [conn5] end connection 127.0.0.1:60754 (0 connections now open)
+2017-10-26T21:08:52.375+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61053 #6 (1 connection now open)
+2017-10-26T21:08:57.249+0800 I COMMAND  [conn6] command imooc.goods command: find { find: "goods", filter: { salePrice: { $gt: 0, $lte: 100 } }, sort: { salePrice: 1 }, projection: {}, limit: 8 } planSummary: COLLSCAN keysExamined:0 docsExamined:17 hasSortStage:1 cursorExhausted:1 keyUpdates:0 writeConflicts:0 numYields:1 nreturned:3 reslen:534 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } } } protocol:op_query 140ms
+2017-10-26T21:13:21.819+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61307 #7 (2 connections now open)
+2017-10-26T21:57:02.188+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61770 #8 (3 connections now open)
+2017-10-26T21:57:02.364+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61771 #9 (4 connections now open)
+2017-10-26T21:57:14.215+0800 I COMMAND  [conn8] command imooc.user command: renameCollection { renameCollection: "imooc.user", to: "imooc.users" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } } } protocol:op_command 197ms
+2017-10-26T22:13:54.802+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61858 #10 (5 connections now open)
+2017-10-26T22:13:54.911+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61859 #11 (6 connections now open)
+2017-10-26T22:42:18.233+0800 I NETWORK  [conn7] end connection 127.0.0.1:61307 (5 connections now open)
+2017-10-26T22:42:18.233+0800 I NETWORK  [conn6] end connection 127.0.0.1:61053 (4 connections now open)
+2017-10-26T22:42:24.447+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62169 #12 (5 connections now open)
+2017-10-26T22:45:21.683+0800 I NETWORK  [conn12] end connection 127.0.0.1:62169 (4 connections now open)
+2017-10-26T22:45:28.625+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62198 #13 (5 connections now open)
+2017-10-26T22:47:24.382+0800 I NETWORK  [conn13] end connection 127.0.0.1:62198 (4 connections now open)
+2017-10-26T22:47:30.381+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62372 #14 (5 connections now open)
+2017-10-26T22:47:35.416+0800 I WRITE    [conn14] update imooc.users query: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 30 } update: { $set: { cartList: [ { productImage: "1.jpg", salePrice: 129, productName: "小钢炮蓝牙音箱", productId: "201710017", _id: ObjectId('58e7058498dab115d336b3fc'), productNum: 6, checked: "0" }, { productImage: "mi6.jpg", salePrice: 2499, productName: "小米6", productId: "201710006", _id: ObjectId('58c284f4117a2e6599abef60'), productNum: 6, checked: "0" }, { productImage: "9.jpg", salePrice: 999, productName: "IH 电饭煲", productId: "201710009", _id: ObjectId('58e7051698dab115d336b3f4'), productNum: 1, checked: "1" }, { productImage: "note.jpg", salePrice: 3549, productName: "小米笔记本", productId: "201710005", _id: ObjectId('58c284e6117a2e6599abef5f'), productNum: 1, checked: "1" }, { productImage: "6.jpg", salePrice: 59, productName: "智能插线板", productId: "201710002", _id: ObjectId('58e704ef98dab115d336b3f1'), productNum: 1 }, { productImage: "6.jpg", salePrice: 59, productName: "智能插线板", productId: "201710002", _id: ObjectId('58e704ef98dab115d336b3f1'), productNum: 1 } ] }, $inc: { __v: 1 } } keysExamined:1 docsExamined:1 nMatched:1 nModified:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 104ms
+2017-10-26T22:47:35.416+0800 I COMMAND  [conn14] command imooc.$cmd command: update { update: "users", updates: [ { q: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 30 }, u: { $set: { cartList: [ { productImage: "1.jpg", salePrice: 129, productName: "小钢炮蓝牙音箱", productId: "201710017", _id: ObjectId('58e7058498dab115d336b3fc'), productNum: 6, checked: "0" }, { productImage: "mi6.jpg", salePrice: 2499, productName: "小米6", productId: "201710006", _id: ObjectId('58c284f4117a2e6599abef60'), productNum: 6, checked: "0" }, { productImage: "9.jpg", salePrice: 999, productName: "IH 电饭煲", productId: "201710009", _id: ObjectId('58e7051698dab115d336b3f4'), productNum: 1, checked: "1" }, { productImage: "note.jpg", salePrice: 3549, productName: "小米笔记本", productId: "201710005", _id: ObjectId('58c284e6117a2e6599abef5f'), productNum: 1, checked: "1" }, { productImage: "6.jpg", salePrice: 59, productName: "智能插线板", productId: "201710002", _id: ObjectId('58e704ef98dab115d336b3f1'), productNum: 1 }, { productImage: "6.jpg", salePrice: 59, productName: "智能插线板", productId: "201710002", _id: ObjectId('58e704ef98dab115d336b3f1'), productNum: 1 } ] }, $inc: { __v: 1 } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 178ms
+2017-10-26T22:47:35.417+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62382 #15 (6 connections now open)
+2017-10-26T22:48:30.385+0800 I NETWORK  [conn14] end connection 127.0.0.1:62372 (5 connections now open)
+2017-10-26T22:48:30.385+0800 I NETWORK  [conn15] end connection 127.0.0.1:62382 (4 connections now open)
+2017-10-26T22:48:52.754+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62386 #16 (5 connections now open)
+2017-10-26T22:51:52.903+0800 I NETWORK  [conn16] end connection 127.0.0.1:62386 (4 connections now open)
+2017-10-26T22:51:57.700+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62426 #17 (5 connections now open)
+2017-10-26T22:57:33.537+0800 I NETWORK  [conn17] end connection 127.0.0.1:62426 (4 connections now open)
+2017-10-26T22:57:37.586+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62458 #18 (5 connections now open)
+2017-10-26T23:02:40.391+0800 I NETWORK  [conn18] end connection 127.0.0.1:62458 (4 connections now open)
+2017-10-26T23:02:44.519+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62528 #19 (5 connections now open)
+2017-10-26T23:15:22.641+0800 I NETWORK  [conn19] end connection 127.0.0.1:62528 (4 connections now open)
+2017-10-26T23:15:26.373+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62633 #20 (5 connections now open)
+2017-10-26T23:17:47.773+0800 I NETWORK  [conn20] end connection 127.0.0.1:62633 (4 connections now open)
+2017-10-26T23:17:51.554+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62726 #21 (5 connections now open)
+2017-10-26T23:20:23.689+0800 I NETWORK  [conn21] end connection 127.0.0.1:62726 (4 connections now open)
+2017-10-26T23:20:27.176+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62828 #22 (5 connections now open)
+2017-10-26T23:21:22.018+0800 I NETWORK  [conn22] end connection 127.0.0.1:62828 (4 connections now open)
+2017-10-26T23:21:26.043+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62842 #23 (5 connections now open)
+2017-10-26T23:33:37.563+0800 I NETWORK  [conn23] end connection 127.0.0.1:62842 (4 connections now open)
+2017-10-26T23:33:41.145+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63040 #24 (5 connections now open)
+2017-10-26T23:36:00.745+0800 I NETWORK  [conn24] end connection 127.0.0.1:63040 (4 connections now open)
+2017-10-26T23:46:39.656+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63267 #25 (5 connections now open)
+2017-10-26T23:47:13.020+0800 I NETWORK  [conn25] end connection 127.0.0.1:63267 (4 connections now open)
+2017-10-26T23:47:22.106+0800 I NETWORK  [conn10] end connection 127.0.0.1:61858 (3 connections now open)
+2017-10-26T23:47:22.172+0800 I NETWORK  [conn11] end connection 127.0.0.1:61859 (2 connections now open)
+2017-10-26T23:47:22.179+0800 I NETWORK  [conn8] end connection 127.0.0.1:61770 (1 connection now open)
+2017-10-26T23:47:22.180+0800 I NETWORK  [conn9] end connection 127.0.0.1:61771 (0 connections now open)
+2017-10-26T23:47:35.658+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-26T23:47:35.668+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-26T23:47:35.798+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-26T23:47:35.798+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-26T23:47:35.798+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-26T23:47:35.798+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-26T23:47:35.798+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-26T23:47:35.798+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-26T23:47:35.798+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-26T23:47:36.460+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-26T23:47:36.461+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-27T08:21:09.298+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-27T08:21:10.448+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-27T08:21:10.767+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-27T08:21:10.768+0800 I STORAGE  [thread1] Service running
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2152 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] modules: none
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] build environment:
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-27T08:21:10.790+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-27T08:21:10.870+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-27T08:21:10.905+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-27T08:21:26.199+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-27T08:21:26.221+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-27T08:21:26.221+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-27T08:21:26.489+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-27T09:21:16.391+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50096 #1 (1 connection now open)
+2017-10-27T09:22:18.836+0800 I NETWORK  [conn1] end connection 127.0.0.1:50096 (0 connections now open)
+2017-10-27T09:23:12.084+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50191 #2 (1 connection now open)
+2017-10-27T09:23:19.794+0800 I NETWORK  [conn2] end connection 127.0.0.1:50191 (0 connections now open)
+2017-10-27T09:27:45.811+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-27T09:27:45.813+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-27T09:27:45.888+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-27T09:27:45.888+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-27T09:27:45.888+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-27T09:27:45.890+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-27T09:27:45.891+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-27T09:27:45.891+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-27T09:27:45.892+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-27T09:27:46.592+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-27T09:27:46.594+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-27T09:27:47.526+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-27T09:27:48.081+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-27T09:27:48.082+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-27T09:27:48.084+0800 I STORAGE  [thread1] Service running
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9064 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] modules: none
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten] build environment:
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-27T09:27:48.085+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-27T09:27:48.086+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-27T09:27:48.089+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-27T09:27:48.091+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-27T09:27:49.888+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-27T09:27:49.888+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-27T09:27:49.888+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-27T09:27:49.893+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-27T09:28:15.133+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50658 #1 (1 connection now open)
+2017-10-27T09:29:30.106+0800 I NETWORK  [conn1] end connection 127.0.0.1:50658 (0 connections now open)
+2017-10-27T09:29:34.638+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50800 #2 (1 connection now open)
+2017-10-27T09:33:03.233+0800 I NETWORK  [conn2] end connection 127.0.0.1:50800 (0 connections now open)
+2017-10-27T09:33:07.325+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50901 #3 (1 connection now open)
+2017-10-27T09:34:48.654+0800 I NETWORK  [conn3] end connection 127.0.0.1:50901 (0 connections now open)
+2017-10-27T09:34:52.694+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50951 #4 (1 connection now open)
+2017-10-27T09:38:44.858+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51153 #5 (2 connections now open)
+2017-10-27T09:38:45.005+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51154 #6 (3 connections now open)
+2017-10-27T09:38:51.344+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51155 #7 (4 connections now open)
+2017-10-27T09:38:51.450+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51156 #8 (5 connections now open)
+2017-10-27T09:51:55.163+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51730 #9 (6 connections now open)
+2017-10-27T09:51:55.282+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51731 #10 (7 connections now open)
+2017-10-27T09:52:35.538+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51755 #11 (8 connections now open)
+2017-10-27T09:52:35.662+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51756 #12 (9 connections now open)
+2017-10-27T09:52:42.330+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51761 #13 (10 connections now open)
+2017-10-27T09:52:42.445+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51762 #14 (11 connections now open)
+2017-10-27T09:52:45.475+0800 I NETWORK  [conn13] end connection 127.0.0.1:51761 (10 connections now open)
+2017-10-27T09:52:45.476+0800 I NETWORK  [conn14] end connection 127.0.0.1:51762 (9 connections now open)
+2017-10-27T09:52:47.270+0800 I NETWORK  [conn11] end connection 127.0.0.1:51755 (8 connections now open)
+2017-10-27T09:52:47.271+0800 I NETWORK  [conn12] end connection 127.0.0.1:51756 (7 connections now open)
+2017-10-27T09:54:45.882+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51828 #15 (8 connections now open)
+2017-10-27T09:54:45.997+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51829 #16 (9 connections now open)
+2017-10-27T10:05:43.092+0800 I NETWORK  [conn4] end connection 127.0.0.1:50951 (8 connections now open)
+2017-10-27T10:05:48.281+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52217 #17 (9 connections now open)
+2017-10-27T10:08:13.859+0800 I NETWORK  [conn17] end connection 127.0.0.1:52217 (8 connections now open)
+2017-10-27T10:08:17.979+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52255 #18 (9 connections now open)
+2017-10-27T12:20:08.754+0800 I NETWORK  [conn18] end connection 127.0.0.1:52255 (8 connections now open)
+2017-10-27T12:20:42.028+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53573 #19 (9 connections now open)
+2017-10-27T12:33:31.489+0800 I NETWORK  [conn19] end connection 127.0.0.1:53573 (8 connections now open)
+2017-10-27T12:33:35.802+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53976 #20 (9 connections now open)
+2017-10-27T12:33:45.906+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53989 #21 (10 connections now open)
+2017-10-27T12:37:36.907+0800 I NETWORK  [conn20] end connection 127.0.0.1:53976 (9 connections now open)
+2017-10-27T12:37:36.907+0800 I NETWORK  [conn21] end connection 127.0.0.1:53989 (8 connections now open)
+2017-10-27T12:37:40.971+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54315 #22 (9 connections now open)
+2017-10-27T12:48:11.363+0800 I NETWORK  [conn22] end connection 127.0.0.1:54315 (8 connections now open)
+2017-10-27T12:48:15.939+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55284 #23 (9 connections now open)
+2017-10-27T12:52:37.648+0800 I NETWORK  [conn23] end connection 127.0.0.1:55284 (8 connections now open)
+2017-10-27T12:52:42.241+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55648 #24 (9 connections now open)
+2017-10-27T13:45:19.245+0800 I NETWORK  [conn24] end connection 127.0.0.1:55648 (8 connections now open)
+2017-10-27T13:45:23.793+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58840 #25 (9 connections now open)
+2017-10-27T13:46:49.957+0800 I NETWORK  [conn25] end connection 127.0.0.1:58840 (8 connections now open)
+2017-10-27T13:46:53.832+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58943 #26 (9 connections now open)
+2017-10-27T14:49:57.358+0800 I NETWORK  [conn26] end connection 127.0.0.1:58943 (8 connections now open)
+2017-10-27T14:50:01.745+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61892 #27 (9 connections now open)
+2017-10-27T14:55:07.589+0800 I NETWORK  [conn27] end connection 127.0.0.1:61892 (8 connections now open)
+2017-10-27T14:55:12.333+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61955 #28 (9 connections now open)
+2017-10-27T14:55:17.423+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61960 #29 (10 connections now open)
+2017-10-27T14:58:32.522+0800 I NETWORK  [conn28] end connection 127.0.0.1:61955 (9 connections now open)
+2017-10-27T14:58:32.523+0800 I NETWORK  [conn29] end connection 127.0.0.1:61960 (8 connections now open)
+2017-10-27T14:58:37.239+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62282 #30 (9 connections now open)
+2017-10-27T14:59:52.778+0800 I NETWORK  [conn30] end connection 127.0.0.1:62282 (8 connections now open)
+2017-10-27T14:59:56.351+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62412 #31 (9 connections now open)
+2017-10-27T15:00:01.420+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62424 #32 (10 connections now open)
+2017-10-27T15:03:19.521+0800 I NETWORK  [conn31] end connection 127.0.0.1:62412 (9 connections now open)
+2017-10-27T15:03:19.521+0800 I NETWORK  [conn32] end connection 127.0.0.1:62424 (8 connections now open)
+2017-10-27T15:03:24.090+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62736 #33 (9 connections now open)
+2017-10-27T15:44:58.859+0800 I NETWORK  [conn33] end connection 127.0.0.1:62736 (8 connections now open)
+2017-10-27T15:45:03.234+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49897 #34 (9 connections now open)
+2017-10-27T15:49:44.689+0800 I NETWORK  [conn34] end connection 127.0.0.1:49897 (8 connections now open)
+2017-10-27T15:49:49.010+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50349 #35 (9 connections now open)
+2017-10-27T15:51:50.092+0800 I NETWORK  [conn35] end connection 127.0.0.1:50349 (8 connections now open)
+2017-10-27T15:51:55.805+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50532 #36 (9 connections now open)
+2017-10-27T15:53:11.456+0800 I NETWORK  [conn36] end connection 127.0.0.1:50532 (8 connections now open)
+2017-10-27T15:53:15.859+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50672 #37 (9 connections now open)
+2017-10-27T16:47:54.549+0800 I NETWORK  [conn16] end connection 127.0.0.1:51829 (8 connections now open)
+2017-10-27T16:47:54.550+0800 I NETWORK  [conn15] end connection 127.0.0.1:51828 (7 connections now open)
+2017-10-27T16:47:56.963+0800 I NETWORK  [conn9] end connection 127.0.0.1:51730 (6 connections now open)
+2017-10-27T16:47:56.971+0800 I NETWORK  [conn10] end connection 127.0.0.1:51731 (5 connections now open)
+2017-10-27T16:47:58.198+0800 I NETWORK  [conn7] end connection 127.0.0.1:51155 (4 connections now open)
+2017-10-27T16:47:58.199+0800 I NETWORK  [conn8] end connection 127.0.0.1:51156 (3 connections now open)
+2017-10-27T16:48:02.458+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51708 #38 (4 connections now open)
+2017-10-27T16:48:02.589+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51709 #39 (5 connections now open)
+2017-10-27T17:14:25.823+0800 I NETWORK  [conn37] end connection 127.0.0.1:50672 (4 connections now open)
+2017-10-27T17:14:30.015+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51933 #40 (5 connections now open)
+2017-10-27T17:32:32.483+0800 I NETWORK  [conn40] end connection 127.0.0.1:51933 (4 connections now open)
+2017-10-27T17:32:39.874+0800 I NETWORK  [conn38] end connection 127.0.0.1:51708 (3 connections now open)
+2017-10-27T17:32:39.874+0800 I NETWORK  [conn5] end connection 127.0.0.1:51153 (3 connections now open)
+2017-10-27T17:32:39.874+0800 I NETWORK  [conn39] end connection 127.0.0.1:51709 (1 connection now open)
+2017-10-27T17:32:39.875+0800 I NETWORK  [conn6] end connection 127.0.0.1:51154 (0 connections now open)
+2017-10-27T17:32:56.766+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-27T17:32:56.883+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-27T17:32:56.991+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-27T17:32:56.991+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-27T17:32:56.991+0800 I NETWORK  [serviceStopWorker] closing listening socket: 468
+2017-10-27T17:32:56.991+0800 I NETWORK  [serviceStopWorker] closing listening socket: 476
+2017-10-27T17:32:56.992+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-27T17:32:56.992+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-27T17:32:57.001+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-27T17:32:57.652+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-27T17:32:57.652+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-27T20:00:55.164+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-27T20:00:56.464+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-27T20:00:56.792+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-27T20:00:56.798+0800 I STORAGE  [thread1] Service running
+2017-10-27T20:00:56.834+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2140 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-27T20:00:56.836+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-27T20:00:56.836+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-27T20:00:56.836+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-27T20:00:56.836+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-27T20:00:56.836+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten] modules: none
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten] build environment:
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-27T20:00:56.837+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-27T20:00:56.947+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-27T20:00:57.180+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-27T20:01:10.089+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-27T20:01:10.089+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-27T20:01:10.090+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-27T20:01:10.896+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-27T20:07:56.340+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49544 #1 (1 connection now open)
+2017-10-27T20:46:42.169+0800 I NETWORK  [conn1] end connection 127.0.0.1:49544 (0 connections now open)
+2017-10-27T20:47:23.681+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50067 #2 (1 connection now open)
+2017-10-27T20:47:33.730+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50077 #3 (2 connections now open)
+2017-10-27T20:47:33.875+0800 I COMMAND  [conn2] command imooc.$cmd command: update { update: "users", updates: [ { q: { userId: "100000077" }, u: { $pull: { cartList: { productId: "201710002" } } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 195ms
+2017-10-27T21:09:38.113+0800 I NETWORK  [conn3] end connection 127.0.0.1:50077 (1 connection now open)
+2017-10-27T21:09:38.113+0800 I NETWORK  [conn2] end connection 127.0.0.1:50067 (1 connection now open)
+2017-10-27T21:10:19.365+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50260 #4 (1 connection now open)
+2017-10-27T21:17:32.049+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50878 #5 (2 connections now open)
+2017-10-27T21:17:32.219+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50879 #6 (3 connections now open)
+2017-10-27T21:17:36.957+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50886 #7 (4 connections now open)
+2017-10-27T21:17:37.073+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50887 #8 (5 connections now open)
+2017-10-27T21:24:23.918+0800 I NETWORK  [conn4] end connection 127.0.0.1:50260 (4 connections now open)
+2017-10-27T21:24:27.320+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50983 #9 (5 connections now open)
+2017-10-28T00:03:51.391+0800 I NETWORK  [conn9] end connection 127.0.0.1:50983 (4 connections now open)
+2017-10-28T00:03:56.409+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53071 #10 (5 connections now open)
+2017-10-28T00:05:21.949+0800 I NETWORK  [conn10] end connection 127.0.0.1:53071 (4 connections now open)
+2017-10-28T00:06:59.289+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53268 #11 (5 connections now open)
+2017-10-28T00:20:33.758+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53667 #12 (6 connections now open)
+2017-10-28T00:20:33.926+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53668 #13 (7 connections now open)
+2017-10-28T00:25:52.808+0800 I NETWORK  [conn11] end connection 127.0.0.1:53268 (6 connections now open)
+2017-10-28T00:25:55.265+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53728 #14 (7 connections now open)
+2017-10-28T00:26:04.210+0800 I WRITE    [conn14] update imooc.users query: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 31 } update: { $set: { cartList.0.checked: "0", cartList.1.checked: "0", cartList.2.checked: "0" } } keysExamined:1 docsExamined:1 nMatched:1 nModified:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 181ms
+2017-10-28T00:26:04.211+0800 I COMMAND  [conn14] command imooc.$cmd command: update { update: "users", updates: [ { q: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 31 }, u: { $set: { cartList.0.checked: "0", cartList.1.checked: "0", cartList.2.checked: "0" } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 181ms
+2017-10-28T00:31:34.148+0800 I NETWORK  [conn14] end connection 127.0.0.1:53728 (6 connections now open)
+2017-10-28T00:31:39.829+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54178 #15 (7 connections now open)
+2017-10-28T00:35:22.894+0800 I NETWORK  [conn15] end connection 127.0.0.1:54178 (6 connections now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn5] end connection 127.0.0.1:50878 (5 connections now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn6] end connection 127.0.0.1:50879 (4 connections now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn13] end connection 127.0.0.1:53668 (3 connections now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn12] end connection 127.0.0.1:53667 (2 connections now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn7] end connection 127.0.0.1:50886 (1 connection now open)
+2017-10-28T00:35:24.005+0800 I NETWORK  [conn8] end connection 127.0.0.1:50887 (0 connections now open)
+2017-10-28T00:35:42.314+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-28T00:35:42.429+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-28T00:35:42.526+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-28T00:35:42.526+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-28T00:35:42.526+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-28T00:35:42.526+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-28T00:35:42.526+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-28T00:35:42.526+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-28T00:35:42.530+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-28T00:35:43.293+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-28T00:35:43.293+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-28T09:01:51.035+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-28T09:01:53.205+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-28T09:01:53.473+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-28T09:01:53.474+0800 I STORAGE  [thread1] Service running
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2172 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] modules: none
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] build environment:
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-28T09:01:53.491+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-28T09:01:53.549+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-28T09:01:53.585+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-28T09:02:02.919+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-28T09:02:02.940+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-28T09:02:02.940+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-28T09:02:03.702+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-28T09:15:22.992+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49879 #1 (1 connection now open)
+2017-10-28T09:20:18.072+0800 I WRITE    [conn1] update imooc.users query: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 31 } update: { $set: { cartList.0.checked: "0", cartList.1.checked: "0", cartList.2.checked: "0", cartList.3.checked: "0" } } keysExamined:1 docsExamined:1 nMatched:1 nModified:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 109ms
+2017-10-28T09:20:18.073+0800 I COMMAND  [conn1] command imooc.$cmd command: update { update: "users", updates: [ { q: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 31 }, u: { $set: { cartList.0.checked: "0", cartList.1.checked: "0", cartList.2.checked: "0", cartList.3.checked: "0" } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 109ms
+2017-10-28T10:12:44.198+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51473 #2 (2 connections now open)
+2017-10-28T10:12:44.312+0800 I COMMAND  [conn2] command admin.$cmd command: listDatabases { listDatabases: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:161 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } } } protocol:op_command 111ms
+2017-10-28T10:12:44.425+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51474 #3 (3 connections now open)
+2017-10-28T10:12:49.703+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51476 #4 (4 connections now open)
+2017-10-28T10:12:49.812+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51477 #5 (5 connections now open)
+2017-10-28T10:31:40.123+0800 I NETWORK  [conn1] end connection 127.0.0.1:49879 (4 connections now open)
+2017-10-28T10:31:43.428+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51645 #6 (5 connections now open)
+2017-10-28T10:36:28.653+0800 I NETWORK  [conn6] end connection 127.0.0.1:51645 (4 connections now open)
+2017-10-28T10:36:31.971+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52045 #7 (5 connections now open)
+2017-10-28T12:00:18.008+0800 I NETWORK  [conn7] end connection 127.0.0.1:52045 (4 connections now open)
+2017-10-28T12:00:21.898+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52846 #8 (5 connections now open)
+2017-10-28T13:31:11.100+0800 I NETWORK  [conn4] end connection 127.0.0.1:51476 (4 connections now open)
+2017-10-28T13:31:11.104+0800 I NETWORK  [conn5] end connection 127.0.0.1:51477 (3 connections now open)
+2017-10-28T13:31:11.322+0800 I NETWORK  [conn2] end connection 127.0.0.1:51473 (2 connections now open)
+2017-10-28T13:31:11.323+0800 I NETWORK  [conn3] end connection 127.0.0.1:51474 (1 connection now open)
+2017-10-28T13:31:14.343+0800 I NETWORK  [conn8] end connection 127.0.0.1:52846 (0 connections now open)
+2017-10-28T13:31:31.448+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-28T13:31:31.508+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-28T13:31:31.626+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-28T13:31:31.626+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-28T13:31:31.626+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-28T13:31:31.626+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-28T13:31:31.626+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-28T13:31:31.626+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-28T13:31:31.652+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-28T13:31:32.345+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-28T13:31:32.346+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-28T14:18:21.424+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-28T14:18:22.594+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-28T14:18:22.895+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-28T14:18:22.896+0800 I STORAGE  [thread1] Service running
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2144 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] modules: none
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] build environment:
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-28T14:18:22.919+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-28T14:18:23.044+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-28T14:18:23.076+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-28T14:18:33.697+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-28T14:18:33.744+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-28T14:18:33.744+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-28T14:18:33.952+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-28T15:50:19.435+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-28T15:50:19.437+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-28T15:50:19.493+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-28T15:50:19.493+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-28T15:50:19.493+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-28T15:50:19.493+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-28T15:50:19.493+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-28T15:50:19.493+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-28T15:50:19.494+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-28T15:50:20.214+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-28T15:50:20.215+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-28T16:06:18.135+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-28T16:06:19.935+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-28T16:06:20.226+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-28T16:06:20.227+0800 I STORAGE  [thread1] Service running
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2160 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] modules: none
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] build environment:
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-28T16:06:20.249+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-28T16:06:20.595+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-28T16:06:20.628+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-28T16:06:30.287+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-28T16:06:30.358+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-28T16:06:30.358+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-28T16:06:30.715+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-28T17:08:32.126+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-28T17:08:32.131+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-28T17:08:32.209+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-28T17:08:32.209+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-28T17:08:32.209+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-28T17:08:32.209+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-28T17:08:32.209+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-28T17:08:32.209+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-28T17:08:32.209+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-28T17:08:32.854+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-28T17:08:32.855+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-28T17:51:38.964+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-28T17:51:40.254+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-28T17:51:40.549+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-28T17:51:40.551+0800 I STORAGE  [thread1] Service running
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2144 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] modules: none
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] build environment:
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-28T17:51:40.575+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-28T17:51:40.665+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-28T17:51:40.920+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-28T17:51:51.223+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-28T17:51:51.278+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-28T17:51:51.279+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-28T17:51:51.796+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-28T18:01:10.752+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-28T18:01:10.758+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-28T18:01:10.834+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-28T18:01:10.834+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-28T18:01:10.834+0800 I NETWORK  [serviceStopWorker] closing listening socket: 460
+2017-10-28T18:01:10.834+0800 I NETWORK  [serviceStopWorker] closing listening socket: 468
+2017-10-28T18:01:10.835+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-28T18:01:10.835+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-28T18:01:10.835+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-28T18:01:11.514+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-28T18:01:11.514+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-28T22:42:37.696+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-28T22:42:38.716+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-28T22:42:38.966+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-28T22:42:38.968+0800 I STORAGE  [thread1] Service running
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2168 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] modules: none
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] build environment:
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-28T22:42:39.033+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-28T22:42:39.113+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-28T22:42:39.401+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-28T22:42:52.154+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-28T22:42:52.155+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-28T22:42:52.155+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-28T22:42:52.584+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-28T23:01:30.742+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49721 #1 (1 connection now open)
+2017-10-28T23:02:53.638+0800 I COMMAND  [conn1] command imooc.$cmd command: update { update: "users", updates: [ { q: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 31 }, u: { $set: { cartList: [ { productImage: "1.jpg", salePrice: 129, productName: "小钢炮蓝牙音箱", productId: "201710017", _id: ObjectId('58e7058498dab115d336b3fc'), productNum: 2, checked: "0" }, { productImage: "mi6.jpg", salePrice: 2499, productName: "小米6", productId: "201710006", _id: ObjectId('58c284f4117a2e6599abef60'), productNum: 4, checked: "0" }, { productImage: "9.jpg", salePrice: 999, productName: "IH 电饭煲", productId: "201710009", _id: ObjectId('58e7051698dab115d336b3f4'), productNum: 1, checked: "0" }, { productImage: "zipai.jpg", salePrice: 39, productName: "自拍杆", productId: "201710007", _id: ObjectId('58e7050398dab115d336b3f2'), productNum: 1, checked: "1" }, { productImage: "6.jpg", salePrice: 59, productName: "智能插线板", productId: "201710002", _id: ObjectId('58e704ef98dab115d336b3f1'), productNum: 1, checked: "1" } ] }, $inc: { __v: 1 } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 111ms
+2017-10-29T10:48:30.524+0800 I NETWORK  [conn1] end connection 127.0.0.1:49721 (0 connections now open)
+2017-10-29T10:48:38.223+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55343 #2 (1 connection now open)
+2017-10-29T10:49:33.296+0800 I NETWORK  [conn2] end connection 127.0.0.1:55343 (0 connections now open)
+2017-10-29T10:50:41.424+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55527 #3 (1 connection now open)
+2017-10-29T10:50:51.064+0800 I NETWORK  [conn3] end connection 127.0.0.1:55527 (0 connections now open)
+2017-10-29T10:51:38.787+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55614 #4 (1 connection now open)
+2017-10-29T10:51:47.892+0800 I NETWORK  [conn4] end connection 127.0.0.1:55614 (0 connections now open)
+2017-10-29T10:53:42.104+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55783 #5 (1 connection now open)
+2017-10-29T10:53:49.390+0800 I NETWORK  [conn5] end connection 127.0.0.1:55783 (0 connections now open)
+2017-10-29T11:37:24.320+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59498 #6 (1 connection now open)
+2017-10-29T11:37:32.514+0800 I NETWORK  [conn6] end connection 127.0.0.1:59498 (0 connections now open)
+2017-10-29T12:08:46.719+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59784 #7 (1 connection now open)
+2017-10-29T12:09:21.872+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59815 #8 (2 connections now open)
+2017-10-29T14:18:08.254+0800 I NETWORK  [conn7] end connection 127.0.0.1:59784 (1 connection now open)
+2017-10-29T14:18:08.254+0800 I NETWORK  [conn8] end connection 127.0.0.1:59815 (0 connections now open)
+2017-10-29T14:18:22.497+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-29T14:18:22.550+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-29T14:18:22.681+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-29T14:18:22.682+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-29T14:18:22.682+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-29T14:18:22.682+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-29T14:18:22.682+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-29T14:18:22.682+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-29T14:18:22.707+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-29T14:18:23.562+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-29T14:18:23.563+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-29T18:09:58.762+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-29T18:10:00.042+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-29T18:10:00.363+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-29T18:10:00.364+0800 I STORAGE  [thread1] Service running
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2156 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] modules: none
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] build environment:
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-29T18:10:00.386+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-29T18:10:00.743+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-29T18:10:00.775+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-29T18:10:06.604+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-29T18:10:06.695+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-29T18:10:06.695+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-29T18:10:06.968+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-29T19:11:01.226+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50665 #1 (1 connection now open)
+2017-10-29T19:12:32.752+0800 I COMMAND  [conn1] command imooc.goods command: find { find: "goods", filter: {}, sort: { salePrice: 1 }, projection: {}, limit: 8 } planSummary: COLLSCAN keysExamined:0 docsExamined:17 hasSortStage:1 cursorExhausted:1 keyUpdates:0 writeConflicts:0 numYields:0 nreturned:8 reslen:1221 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 160ms
+2017-10-29T19:37:05.770+0800 I NETWORK  [conn1] end connection 127.0.0.1:50665 (0 connections now open)
+2017-10-29T19:37:44.009+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53119 #2 (1 connection now open)
+2017-10-29T20:02:08.481+0800 I WRITE    [conn2] update imooc.users query: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 34 } update: { $set: { cartList.4.productNum: 2 } } keysExamined:1 docsExamined:1 nMatched:1 nModified:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 156ms
+2017-10-29T20:02:08.481+0800 I COMMAND  [conn2] command imooc.$cmd command: update { update: "users", updates: [ { q: { _id: ObjectId('58c41d5d3eddd93e9ab5b078'), __v: 34 }, u: { $set: { cartList.4.productNum: 2 } }, upsert: false, multi: false } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 245ms
+2017-10-29T22:14:44.563+0800 I NETWORK  [conn2] end connection 127.0.0.1:53119 (0 connections now open)
+2017-10-29T22:14:56.074+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-29T22:14:56.082+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-29T22:14:56.254+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-29T22:14:56.254+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-29T22:14:56.254+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-29T22:14:56.254+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-29T22:14:56.254+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-29T22:14:56.254+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-29T22:14:56.254+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-29T22:14:57.009+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-29T22:14:57.010+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-30T08:25:24.867+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-30T08:25:26.837+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-30T08:25:27.122+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-30T08:25:27.123+0800 I STORAGE  [thread1] Service running
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2160 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] modules: none
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] build environment:
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-30T08:25:27.146+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-30T08:25:27.270+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-30T08:25:27.322+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-30T08:25:39.191+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-30T08:25:39.191+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-30T08:25:39.191+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-30T08:25:39.443+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-30T17:33:55.345+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-30T17:33:55.492+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-30T17:33:55.545+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-30T17:33:55.545+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-30T17:33:55.545+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-30T17:33:55.545+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-30T17:33:55.545+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-30T17:33:55.545+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-30T17:33:55.556+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-30T17:33:56.318+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-30T17:33:56.318+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-30T19:51:28.984+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-30T19:51:30.204+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-30T19:51:30.738+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-30T19:51:30.739+0800 I STORAGE  [thread1] Service running
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2148 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] modules: none
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten] build environment:
+2017-10-30T19:51:30.751+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-30T19:51:30.752+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-30T19:51:30.752+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-30T19:51:30.752+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-30T19:51:30.831+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-30T19:51:30.875+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-30T19:51:41.389+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-30T19:51:41.533+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-30T19:51:41.533+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-30T19:51:42.295+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-30T23:29:43.378+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-30T23:29:43.379+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-30T23:29:43.496+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-30T23:29:43.496+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-30T23:29:43.496+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-30T23:29:43.496+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-30T23:29:43.496+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-30T23:29:43.496+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-30T23:29:43.496+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-30T23:29:44.170+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-30T23:29:44.170+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-31T08:41:09.079+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-31T08:41:11.506+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-31T08:41:11.963+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-31T08:41:11.964+0800 I STORAGE  [thread1] Service running
+2017-10-31T08:41:11.985+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2136 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-31T08:41:11.985+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] modules: none
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] build environment:
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-31T08:41:11.986+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-31T08:41:12.048+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-31T08:41:12.078+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-31T08:41:22.543+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-31T08:41:22.572+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-31T08:41:22.572+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-31T08:41:22.719+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-31T15:37:12.727+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-31T15:37:12.850+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-31T15:37:12.914+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-31T15:37:12.914+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-31T15:37:12.914+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-31T15:37:12.915+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-31T15:37:12.915+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-31T15:37:12.915+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-31T15:37:12.924+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-31T15:37:13.726+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-31T15:37:13.729+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-10-31T20:56:44.715+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-31T20:56:46.165+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-10-31T20:56:46.413+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-31T20:56:46.414+0800 I STORAGE  [thread1] Service running
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2140 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] modules: none
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten] build environment:
+2017-10-31T20:56:46.494+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-31T20:56:46.495+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-31T20:56:46.495+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-31T20:56:46.495+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-10-31T20:56:46.561+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-31T20:56:46.794+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-31T20:56:56.562+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-31T20:56:56.575+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-10-31T20:56:56.575+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-10-31T20:56:57.159+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-10-31T23:00:15.404+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-10-31T23:00:15.405+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-10-31T23:00:15.429+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-10-31T23:00:15.429+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-31T23:00:15.429+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-10-31T23:00:15.430+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-10-31T23:00:15.430+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-31T23:00:15.430+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-10-31T23:00:15.430+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-10-31T23:00:16.177+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-10-31T23:00:16.178+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-11-01T08:26:52.750+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-11-01T08:26:54.902+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-11-01T08:26:55.260+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-11-01T08:26:55.263+0800 I STORAGE  [thread1] Service running
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2272 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] modules: none
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] build environment:
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-11-01T08:26:55.285+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-11-01T08:26:55.476+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-11-01T08:26:55.531+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-11-01T08:27:08.351+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-11-01T08:27:08.353+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-11-01T08:27:08.354+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-11-01T08:27:09.003+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-11-01T10:21:29.303+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-11-01T10:21:29.393+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-11-01T10:21:29.445+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-11-01T10:21:29.445+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-11-01T10:21:29.445+0800 I NETWORK  [serviceStopWorker] closing listening socket: 456
+2017-11-01T10:21:29.445+0800 I NETWORK  [serviceStopWorker] closing listening socket: 464
+2017-11-01T10:21:29.445+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-11-01T10:21:29.445+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-11-01T10:21:29.456+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-11-01T10:21:30.544+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-11-01T10:21:30.545+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-11-01T10:48:33.094+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-11-01T10:48:33.655+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-11-01T10:48:33.656+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-11-01T10:48:33.658+0800 I STORAGE  [thread1] Service running
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9800 port=27017 dbpath=F:\blog\mongodb\data 64-bit host=XCB-PC
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t-fips  3 May 2016
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] modules: none
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten] build environment:
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-11-01T10:48:33.659+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-11-01T10:48:33.660+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-11-01T10:48:33.660+0800 I CONTROL  [initandlisten] options: { config: "F:/blog/mongodb/etc/mongo.conf", net: { http: { enabled: true }, port: 27017 }, service: true, storage: { dbPath: "F:\blog\mongodb\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "F:\blog\mongodb\log\mongodb.log", quiet: false } }
+2017-11-01T10:48:33.664+0800 I -        [initandlisten] Detected data files in F:\blog\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-11-01T10:48:33.666+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-11-01T10:48:35.552+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/blog/mongodb/data/diagnostic.data'
+2017-11-01T10:48:35.552+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-11-01T10:48:35.552+0800 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-11-01T10:48:35.567+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-11-01T10:55:55.844+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-11-01T10:55:55.853+0800 I FTDC     [serviceStopWorker] Shutting down full-time diagnostic data capture
+2017-11-01T10:55:55.861+0800 I CONTROL  [serviceStopWorker] now exiting
+2017-11-01T10:55:55.861+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-11-01T10:55:55.861+0800 I NETWORK  [serviceStopWorker] closing listening socket: 472
+2017-11-01T10:55:55.862+0800 I NETWORK  [serviceStopWorker] closing listening socket: 480
+2017-11-01T10:55:55.862+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-11-01T10:55:55.862+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2017-11-01T10:55:55.865+0800 I STORAGE  [serviceStopWorker] WiredTigerKVEngine shutting down
+2017-11-01T10:55:56.585+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2017-11-01T10:55:56.587+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2017-11-01T10:56:02.474+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-11-01T10:56:03.163+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2017-11-01T10:56:03.164+0800 I CONTROL  [main] Trying to remove Windows service 'MongoDB'
+2017-11-01T10:56:03.166+0800 I CONTROL  [main] Service 'MongoDB' removed

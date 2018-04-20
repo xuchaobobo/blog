@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+
+}
+.menu a{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+}
+.menu a:hover{
+    border-bottom:1px solid orange;
+}
+main{
+    background: #F0F0F0;
+    text-align: center;
+    padding: 2% 15%;
+}
+.clear:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.mainLeft{
+    float: left;
+    width: 60%;
+}
+.mainRight{
+    width: 38%;
+    float: right;
+}
+.listBox{
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.colDefault{
+    font-size: 14px;
+}
+.colInfo{
+    color: blue;
+}
+dfn{
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+    font-style:normal;
+    font-weight: 800;
+}
+.function{
+    width: 100px;
+    background: orange;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.function a{
+    color: white;
+}
+.rightBox{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.title{
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd
+}
+.title span{
+    line-height: 30px;
+    border-bottom: 1px solid orange;
+    display: block;
+    height: 30px;
+    width: 70px;
+}
+.colDanger{
+    color: red;
+}
+.line{
+    width: 80%;
+    text-align: center;
+    margin:4px 0;
+}
+.colDark{
+    text-align: left;
+    line-height: 35px;
+}
+button{
+    width: 180px;
+    border: none;
+    height: 30px;
+    margin-left: 70px;
+    background: orange;
+    border-radius: 5px;
+}
+input{
+    width: 180px;
+    height: 30px;
+    float: right;
+}
+.textRight{
+    margin-right: 60px;
+}
+ul li{
+    display: inline-block;
+}
+.previous{
+    float: left;
+}
+.next{
+    float: right;
+}
+.conWarning{
+    color: red;
+}
+.focus{
+    border-bottom:1px solid orange;
+    color:orange;
+}
+.textLeft{
+    text-align: left;
+    line-height: 30px;
+}
+.em{
+    float: right;
+}
+.messageList{
+    margin: 15px 0;
+}
+.messageList p{
+    line-height: 26px;
+}
+#messageContent{
+    height: 75px;
+    width: 84%;
+    vertical-align: bottom;
+}
+#messageBtn{
+    height: 75px;
+    width: 15%;
+    margin: 0;
+    margin-left: -5px;
+}
+.name{
+    text-align: left;
+}
+.name .fl{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.bgDanger{
+    background: orange;
+    margin: 10px 0;
+    color: white;
+}
+.name .fr{
+    float: right;
+    width: 60%;
+    text-align: right;
+}

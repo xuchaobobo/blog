@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客</title>
+    <link rel="stylesheet" href="/public/css/index.css" type="text/css">
+    <script src="/public/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <div class="backimg"><img src="" alt=""></div>
+    <div class="logo"><span></span><img src="" alt=""></div>
+</header>
+<nav>
+    <div class="menu">
+        {%if category==''%}
+        <a href="/" class="focus">首页</a>
+        {%else%}
+        <a href="/">首页</a>
+        {%endif%}
+
+        {% for cate in categories %}
+        {%if category==cate.id%}
+        <a href="/?category={{cate.id}}" class="focus">{{cate.name}}</a>
+        {%else%}
+        <a href="/?category={{cate.id}}">{{cate.name}}</a>
+        {%endif%}
+
+        {% endfor %}
+    </div>
+</nav>
+<main class="clear">
+    <div class="mainLeft">
+       {%block content%}{%endblock%}
+    </div>
+    <div class="mainRight">
+        {% if userInfo._id %}
+        <div class="rightBox" id="userInfo" >
+            <div class="title"><span>用户信息</span></div>
+
+            <p><span class="colDark">{{userInfo.username}}</span></p>
+            {% if userInfo.isAdmin %}
+            <p>
+                <span class="colDanger">你好，管理员</span>
+                <a href="/admin">进入管理</a>
+            </p>
+            {% else %}
+            <p><span class="colDanger">你好，欢迎光临我的博客</span></p>
+            {% endif %}
+
+            <p><span class="colDark logout"><a href="javascript:;" id="logout">退出</a></span></p>
+
+            {% else %}
+            <div class="rightBox" id="longinBox">
+                <div class="title"><span>登录</span></div>
+                <div class="line"><span class="colDark">用户名：</span><input type="text" name="username"></div>
+                <div class="line"><span class="colDark">密码：</span><input type="password" name="password"></div>
+                <div class="line"><span class="colDark"></span><button>登录</button></div>
+                <p class="textRight">还没注册？<a href="javascript:;" class="colMint">马上注册</a></p>
+                <p class="conWarning textCenter"></p>
+
+
+            </div>
+            <div class="rightBox" id="registerBox"  style="display: none;">
+                <div class="title"><span>注册</span></div>
+                <div class="line"><span class="colDark">用户名：</span><input type="text" name="username"></div>
+                <div class="line"><span class="colDark">密码：</span><input type="password" name="password"></div>
+                <div class="line"><span class="colDark">确认：</span><input type="password" name="repassword"></div>
+                <div class="line"><span class="colDark"></span><button>注册</button></div>
+                <p class="textRight">已有账号？<a href="javascript:;" class="colMint">马上登录</a></p>
+                <p class="conWarning textCenter"></p>
+            </div>
+            {% endif %}
+        </div>
+</main>
+<script src="/public/js/index.js" type="text/javascript"></script>
+</body>
+</html>
